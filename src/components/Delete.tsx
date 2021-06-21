@@ -8,15 +8,15 @@ const Delete = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-5xl md:text-6xl font-bold">
-          Welcome to <span className="text-blue-500">Next.js with Tailwind</span>
+      <main className="flex flex-col items-center justify-center flex-1 w-full px-20 text-center">
+        <h1 className="text-5xl font-bold md:text-6xl">
+          <span className="text-blue-500">Next.js with Tailwind & TypeScript</span>
         </h1>
 
         <p className="mt-3 text-2xl">
           Get started by deleting{" "}
           <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            src/components/Delete.js
+            src/components/Delete.tsx
           </code>
         </p>
 
