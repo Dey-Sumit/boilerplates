@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const Delete = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="flex flex-col items-center justify-center min-h-screen py-2 ">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -15,17 +15,13 @@ const Delete = () => {
 
         <p className="mt-3 text-2xl">
           Get started by deleting{" "}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            src/components/Delete.tsx
-          </code>
+          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">src/components/Delete.tsx</code>
         </p>
 
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
           <a className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
             <h3 className="text-2xl font-bold">Standard Folder Structure &rarr;</h3>
-            <p className="mt-4 text-xl">
-              pages and components folders are inside the src folder(like react 💙)
-            </p>
+            <p className="mt-4 text-xl">pages and components folders are inside the src folder(like react 💙)</p>
           </a>
 
           <a className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
@@ -39,9 +35,7 @@ const Delete = () => {
 
           <a className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
             <h3 className="text-2xl font-bold">Tailwind JIT Enabled</h3>
-            <p className="mt-4 text-xl">
-              Develop ( create bugs) Faster with Tailwind Just In Time mode
-            </p>
+            <p className="mt-4 text-xl">Develop ( create bugs) Faster with Tailwind Just In Time mode</p>
           </a>
 
           <a className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
